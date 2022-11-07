@@ -1,0 +1,77 @@
+.c2c_wrapper {
+  position: fixed;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 9999;
+}
+
+.c2c_popover {
+  box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+  max-width: 250px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.c2c_designation {
+  font-size: 13px;
+}
+.c2c_profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.c2c_container {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: #1e96f2;
+  color: #ffffff;
+  z-index: 999999;
+  cursor: pointer;
+  width: max-content;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.c2c_chat {
+  height: 24px;
+  width: 24px;
+}
+
+.c2c_btn {
+  display: block;
+  width: 100%;
+}
+
+.c2c_left {
+  left: 50px;
+  align-items: flex-start;
+}
+.c2c_right {
+  right: 50px;
+  align-items: flex-end;
+}
+
+@media (max-width: 991px) {
+  .c2c_wrapper {
+    bottom: 10px;
+  }
+  .c2c_left {
+    left: 10px;
+  }
+  .c2c_right {
+    right: 10px;
+  }
+}
