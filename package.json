@@ -1,14 +1,14 @@
 {
   "name": "react-quick-contact",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple floaing contact widget.",
   "license": "MIT",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
+  "types": "./dist/esm/types/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
     "storybook": "start-storybook -p 6006",
