@@ -17,6 +17,7 @@
   gap: 10px;
   transition: all 0.2s ease-in-out;
   background-color: #fff;
+  color: black;
 }
 
 .c2c_designation {
@@ -48,6 +49,10 @@
 .c2c_chat {
   height: 24px;
   width: 24px;
+}
+.c2c_btn_icon{
+  height: 20px;
+  width: 20px;
 }
 
 .c2c_btn {
