@@ -1,6 +1,6 @@
 {
   "name": "react-quick-contact",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple floaing contact widget.",
   "license": "MIT",
   "main": "./dist/cjs/index.js",

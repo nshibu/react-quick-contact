@@ -31,7 +31,7 @@
 .c2c_container {
   padding: 10px 20px;
   border-radius: 25px;
-  background: #1e96f2;
+  /* background: #1e96f2; */
   color: #ffffff;
   z-index: 999999;
   cursor: pointer;

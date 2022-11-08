@@ -22,6 +22,7 @@ ReactQuickContactLib.args = {
     designation: 'Developer',
     message: 'Hey 👋 Need help? Im here for you, so just QuickContact.',
     alignment: 'left',
+    buttonColor: '#FFB714',
     profileImageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrvOZf5zaHg_9a8upGltfVtObFu_0QH1rcw&usqp=CAU",
     buttons: [
         <QCButton name="Call" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >

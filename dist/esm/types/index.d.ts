@@ -13,6 +13,7 @@ declare const QCButton: (props: OCBProps) => JSX.Element;
 interface ReactQuickContactProps {
     buttonLabel: string;
     buttonIcon: ReactNode;
+    buttonColor: string;
     name?: string;
     designation?: string;
     message?: string;

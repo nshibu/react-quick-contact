@@ -1,9 +1,9 @@
 import React, { ReactNode } from "react";
-import QCButton from "./QCButton/QCButton";
 
 export interface ReactQuickContactProps{
     buttonLabel: string,
     buttonIcon: ReactNode,
+    buttonColor: string,
     name?: string,
     designation?: string,
     message?: string,

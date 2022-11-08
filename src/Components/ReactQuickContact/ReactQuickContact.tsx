@@ -26,7 +26,7 @@ const ReactQuickContact = (props: ReactQuickContactProps) => {
         }
 
       </div>}
-      <div className="c2c_container" onClick={handleContactButtonClick}>
+      <div className="c2c_container" style={{backgroundColor: props.buttonColor}} onClick={handleContactButtonClick}>
         <div className='c2c_btn_icon'>  {props.buttonIcon}</div>
         <div>  {props.buttonLabel}</div>
       </div>
