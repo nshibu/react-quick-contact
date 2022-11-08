@@ -11,8 +11,7 @@
   "types": "./dist/esm/types/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006"
   },
   "peerDependencies": {
     "react": "^18.2.0",

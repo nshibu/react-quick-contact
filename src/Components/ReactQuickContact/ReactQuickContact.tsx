@@ -19,7 +19,10 @@ const ReactQuickContact = (props: ReactQuickContactProps) => {
         {props.designation && <div className="c2c_designation">{props.designation}</div>}
         {props.message && <div>{props.message}</div>}
         {
-          props.buttons && props.buttons.map((e, i) => <div key={i} className="c2c_btn"> <>{e}</></div>)
+          props.buttons && props.buttons.map((e, i) => {
+            if(e !== undefined)
+            return <div key={i} className="c2c_btn"> <>{e}</></div>
+          })
         }
 
       </div>}
